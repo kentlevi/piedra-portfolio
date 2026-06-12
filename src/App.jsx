@@ -32,7 +32,7 @@ function App() {
         
         <div className="flex gap-8 text-[11px] uppercase tracking-widest font-bold opacity-40">
           <a href="https://github.com/piedratics29" className="hover:opacity-100 transition-opacity">GitHub</a>
-          <a href="https://ph.linkedin.com/in/rose-piedra-a77282199" className="hover:opacity-100 transition-opacity">LinkedIn</a>
+          <a href="https://linkedin.com/in/rose-piedra" className="hover:opacity-100 transition-opacity">LinkedIn</a>
         </div>
 
         <button

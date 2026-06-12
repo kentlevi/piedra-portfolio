@@ -28,7 +28,7 @@ export default function Contact() {
             <span className="text-[10px] uppercase tracking-widest opacity-40 block mb-2">Socials</span>
             <div className="flex flex-col gap-2">
               <a href="https://github.com/piedratics29" className="text-sm font-bold uppercase tracking-widest border-b border-bg/20 w-fit hover:border-bg transition-colors">GitHub</a>
-              <a href="https://ph.linkedin.com/in/rose-piedra-a77282199" className="text-sm font-bold uppercase tracking-widest border-b border-bg/20 w-fit hover:border-bg transition-colors">LinkedIn</a>
+              <a href="https://linkedin.com/in/rose-piedra" className="text-sm font-bold uppercase tracking-widest border-b border-bg/20 w-fit hover:border-bg transition-colors">LinkedIn</a>
             </div>
           </div>
 

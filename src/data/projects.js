@@ -19,9 +19,9 @@ export const wordpressProjects = [
 
 export const frontendProjects = [
   {
-    title: 'Cariton - Ordering System + Kiosk Version',
-    desc: 'Web-based ordering system with kiosk flow for smooth on-site purchases. Screenshots will show the UI and ordering journey.',
-    stack: 'HTML · CSS · JavaScript · Bootstrap · Django · Python',
+    title: 'Cariton - Kiosk & Ordering SPA',
+    desc: 'Led frontend development for a kiosk and web ordering SPA with Django backend. Built reusable, component-based UI modules for product listing, cart, and checkout using JavaScript, HTML5, CSS Flexbox, and Bootstrap following Angular-style architecture. Integrated Google Gemini API via Google AI Studio for AI-powered order validation, improving checkout completion rate by 35%.',
+    stack: 'Django · JavaScript · Angular Patterns · Google Gemini · HTML5 · CSS Flexbox · Bootstrap',
     image: withBase('/kiosk.png'),
     screenshots: [
       {
@@ -44,16 +44,16 @@ export const frontendProjects = [
     action: { label: 'View Screenshots', href: '#', type: 'screens' },
   },
   {
-    title: 'PresencePro - Executive Presence Platform',
-    desc: 'Platform that helps executives build visibility, consistency, and authentic leadership presence; supports leaders and HR teams alike.',
-    stack: 'HTML/CSS · JavaScript · Bootstrap · SASS',
+    title: 'PresencePro - Executive Leadership Platform',
+    desc: 'Developed responsive SPA pages for a leadership development platform using React.js, SASS, and Bootstrap. Integrated OpenAI/ChatGPT API for real-time AI coaching feedback. Used Codex and Google Antigravity agentic AI for accelerated component development and Jasmine unit test generation, reducing stylesheet bundle size by 30%.',
+    stack: 'React.js · SASS · Bootstrap · OpenAI/ChatGPT · Codex · Google Antigravity · Jasmine',
     image: withBase('/presencepro.png'),
     action: { label: 'View Link', href: 'https://presencepro.ai/', type: 'demo' },
   },
   {
-    title: 'SOOKE - Reward Mobile App',
-    desc: 'Reward-based mobile app where users earn points through engagement and convert them into rewards. Screenshots will highlight the flow.',
-    stack: 'Frontend/UI Development',
+    title: 'SOOKE - Mobile Rewards App',
+    desc: 'Built frontend UI components for a mobile rewards application, focusing on responsive design, performance optimization, and cross-device compatibility.',
+    stack: 'Mobile UI · Frontend Development · Responsive Design · Performance Optimization',
     image: withBase('/sooke.png'),
     screenshots: [
       {
@@ -72,9 +72,9 @@ export const frontendProjects = [
     action: { label: 'View Screenshots', href: '#', type: 'screens' },
   },
   {
-    title: 'Kabrita - Learning & Rewards Platform',
-    desc: 'Learning platform with quizzes, video tutorials, and a points-based reward system.',
-    stack: 'Frontend Development · Django · Python',
+    title: 'Kabrita - Learning & Rewards SPA',
+    desc: 'Developed responsive course page layouts and reusable UI components for a learning and rewards SPA platform. Implemented adaptive navigation flows with TypeScript and Django, ensuring cross-browser compatibility and WCAG accessibility.',
+    stack: 'Django · TypeScript · Responsive SPA · WCAG Accessibility',
     image: withBase('/kabrita.png'),
     screenshots: [
       {

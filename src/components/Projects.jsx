@@ -188,16 +188,16 @@ export default function Projects() {
       <SectionShell id="projects" title="OUR WORK" muted>
         <div className="project-section mt-10">
           <div className="section-header px-4 md:px-0 mb-6 flex items-center justify-between">
-            <h3 className="text-sm tracking-widest uppercase opacity-60">WordPress Development</h3>
+            <h3 className="text-sm tracking-widest uppercase opacity-60">Featured Single-Page Applications</h3>
           </div>
-          <ProjectGrid items={wordpressProjects} startIndex={0} onOpenScreens={openScreens} />
+          <ProjectGrid items={frontendProjects} startIndex={0} onOpenScreens={openScreens} />
         </div>
 
         <div className="project-section mt-16">
           <div className="section-header px-4 md:px-0 mb-6 flex items-center justify-between">
-            <h3 className="text-sm tracking-widest uppercase opacity-60">Frontend / Web Apps</h3>
+            <h3 className="text-sm tracking-widest uppercase opacity-60">WordPress & CMS Development</h3>
           </div>
-          <ProjectGrid items={frontendProjects} startIndex={wordpressProjects.length} onOpenScreens={openScreens} />
+          <ProjectGrid items={wordpressProjects} startIndex={frontendProjects.length} onOpenScreens={openScreens} />
         </div>
       </SectionShell>
 

@@ -29,12 +29,12 @@ export default function Hero() {
         >
           <div className="flex flex-col gap-4 max-w-full">
             <motion.h1 variants={item} className="text-[16vw] xl:text-[11vw] leading-[0.8] font-bold uppercase tracking-tighter w-full">
-              Digital<br />
-              Experience<br />
-              Design
+              Rose<br />
+              Piedra<br />
+              Singco
             </motion.h1>
             <motion.p variants={item} className="text-lg md:text-xl font-light tracking-tight max-w-2xl mt-6 opacity-80 leading-snug">
-               I am Rose Piedra Singco, a Frontend Engineer focused on building immersive, high-performance digital products from concept to production.
+              I am a Frontend Engineer specializing in responsive single-page applications (SPA), reusable UI components, micro-frontends, accessibility (WCAG), and AI-assisted development.
             </motion.p>
             <motion.div variants={item} className="mt-8">
                <a href="#projects" className="inline-block border border-text px-8 py-4 text-xs font-bold uppercase tracking-widest hover:bg-text hover:text-bg transition-colors">
@@ -50,7 +50,7 @@ export default function Hero() {
             </div>
             <div className="flex flex-col">
               <span className="text-[10px] uppercase tracking-widest opacity-40 mb-1">Experience</span>
-              <span className="text-sm font-bold uppercase tracking-tight">3+ Years</span>
+              <span className="text-sm font-bold uppercase tracking-tight">Nearly 3 Years</span>
             </div>
             <div className="flex flex-col">
               <span className="text-[10px] uppercase tracking-widest opacity-40 mb-1">Status</span>
@@ -81,7 +81,7 @@ export default function Hero() {
              <div className="backdrop-blur-xl bg-black/50 border border-white/20 p-6 w-full">
                <span className="text-[10px] uppercase tracking-[0.2em] font-bold opacity-60 block mb-3 text-white">Capability Snapshot</span>
                <p className="text-white text-sm font-bold uppercase tracking-tight leading-relaxed">
-                 UI Polish, Performance, React, Tailwind, WordPress, Django
+                 Angular, React, TypeScript, Micro-Frontends, Unit Testing, Gen AI
                </p>
              </div>
           </div>
